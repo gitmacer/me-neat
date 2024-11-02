@@ -3,5 +3,5 @@ Privacy focused friend finder by wifi hotspot naming.
 Just name it me-ne.at and wait for shoutouts.
 
 # Todo
--hotspot forever runner
+-hotspot forever runner   
 -notifyer app
