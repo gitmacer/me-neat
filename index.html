@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprachbasierte Weiterleitung</title>
+    <script>
+        window.onload = function() {
+            var userLang = navigator.language || navigator.userLanguage; 
+            if (userLang.startsWith("de")) {
+                window.location.href = "me-neat_de.html";
+            } else if (userLang.startsWith("en")) {
+                window.location.href = "me-neat_en.html";
+            } else {
+                window.location.href = "me-neat_en.html"; // Standardmäßig Englisch
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Sie werden basierend auf Ihrer Sprache weitergeleitet...</p>
+</body>
+</html>
